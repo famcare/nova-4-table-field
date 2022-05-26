@@ -28,7 +28,7 @@
   "require": {
     "php": ">=7.1.0",
     "laravel/nova": "^1.0 || ^2.0 || ^3.0",
-    "optimistdigital/nova-tailwind": "master@dev"
+    "famcare/nova-tailwind": "dev-main"
   },
   "autoload": {
     "psr-4": {
