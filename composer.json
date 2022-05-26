@@ -28,7 +28,7 @@
   "require": {
     "php": ">=7.1.0",
     "laravel/nova": "^1.0 || ^2.0 || ^3.0",
-    "optimistdigital/nova-tailwind": "^1.0"
+    "famcare/nova-tailwind": "*"
   },
   "autoload": {
     "psr-4": {
@@ -46,5 +46,11 @@
     "sort-packages": true
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:famcare/nova-tailwind.git"
+    }
+  ]
 }
