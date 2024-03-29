@@ -104,12 +104,8 @@ class Table extends Field
         return $this;
     }
 
-    /**
-     * Prepare the field element for JSON serialization.
-     *
-     * @return array
-     */
-    public function jsonSerialize()
+    
+    public function jsonSerialize():array
     {
         return array_merge(parent::jsonSerialize(), [
             'canAdd' => $this->canAdd,
