@@ -28,7 +28,7 @@
   "require": {
     "php": ">=8.1",
     "laravel/nova": "^4.0",
-    "famcare/nova-tailwind": "dev-main"
+    "famcare/nova-4-tailwind": "dev-main"
   },
   "autoload": {
     "psr-4": {
@@ -50,7 +50,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:famcare/nova-tailwind.git"
+      "url": "git@github.com:famcare/nova-4-tailwind.git"
     }
   ]
 }
